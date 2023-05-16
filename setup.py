@@ -8,7 +8,7 @@ with open('README.md') as readme_file:
     readme = readme_file.read()
 
 
-requirements=['numpy>=1.10', 'pandas', 'matplotlib.pyplot', 'math', 'scipy']
+requirements=['numpy>=1.10', 'pandas', 'matplotlib.pyplot','scipy']
 test_requirements = ['pytest>=3', ]
 
 setup(
