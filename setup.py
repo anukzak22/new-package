@@ -4,14 +4,11 @@
 
 from setuptools import setup, find_packages
 
-with open('README.rst') as readme_file:
+with open('README.md') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
 
-requirements = [ ]
-
+requirements=['numpy>=1.10', 'pandas', 'matplotlib.pyplot', 'math', 'scipy.optimize']
 test_requirements = ['pytest>=3', ]
 
 setup(
@@ -28,10 +25,10 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="This is apackage containing several bass model function that are useful for solving or evaluating marketing realted problems ",
+    description="This is a package containing several bass model functions that are useful for solving or evaluating marketing related problems ",
     install_requires=requirements,
     license="MIT license",
-    long_description=readme + '\n\n' + history,
+    long_description=readme ,
     include_package_data=True,
     keywords='markbassmodel',
     name='markbassmodel',

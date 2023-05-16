@@ -36,13 +36,13 @@ This function plots the Bass diffusion curve for a given set of parameters.
 To install the bassmodel package, you can use pip:
 
 ```
-pip install bassmodel
+pip install markbassmodel
 ```
 ## Usage
 
-To use the bassmodel package, first import it:
+To use the markbassmodel package, first import it:
 ```
-import bassmodel
+import markbassmodel
 ```
 
 calculate the parameters 
@@ -61,5 +61,5 @@ Sample data to check the package
 
 [ https://drive.google.com/drive/folders/1rtiKrg9xa2TMH8cTqN2l-eHWqQG1ZH6c?usp=sharing ]
 
-the data contain smartphoe sails over some period 
-
+the data contain smartphones sales over some period 
+git
