@@ -21,7 +21,6 @@ markbassmodel.egg-info/PKG-INFO
 markbassmodel.egg-info/SOURCES.txt
 markbassmodel.egg-info/dependency_links.txt
 markbassmodel.egg-info/not-zip-safe
-markbassmodel.egg-info/requires.txt
 markbassmodel.egg-info/top_level.txt
 tests/__init__.py
 tests/test_markbassmodel.py
